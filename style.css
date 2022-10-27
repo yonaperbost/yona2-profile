@@ -1,0 +1,182 @@
+h1	{
+	color: white;
+	font-size: 30px;
+}
+
+Body {
+	background-color: black;
+}
+
+a	{
+	text-decoration: none;
+	color: floralwhite;
+}
+
+h1	{
+	font-family: 'Poppins', sans-serif;
+}
+
+p,a {
+	font-family: 'Lora', serif;
+}
+
+p	{
+	color: white;
+}
+
+#text-profile {
+	color: black;
+}
+
+li 	{
+	list-style: none ;
+	font-size: 40px;
+	display: inline;
+	margin: 12px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+ img {
+ 	width: 140px;
+ 	height: 140px ;
+ 	border-radius: 50%;
+ }
+
+
+.btn-green {
+	background-color: black;
+	color:floralwhite ;
+	padding: 12px 24px;
+	border-radius: 8px;
+	margin: 18px;
+}
+
+.btn-green:hover	{
+	background-color:indianred ;
+	color: floralwhite;
+	font-size: 125%;
+	border: 1px solid floralwhite;
+	transition : 0.5s;
+}
+
+#link-follow {
+	color: indianred;
+}
+
+#link-instagram:hover	{
+	background-color: indianred;
+	color: black;
+	font-size: 150%;
+	border-radius: 8px;
+	margin: 0 auto;
+	transition: 0.5s;
+}
+
+#link-facebook:hover	{
+	background-color: indianred;
+	color: black;
+	font-size: 150%;
+	border-radius: 8px;
+	margin: 0 auto;
+	transition: 0.5s;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-image {
+	border-width: thick;
+	border: rgb(250, 112, 112);
+	background-color: white;
+	border-radius: 8px ;
+	box-shadow: 10px 20px 30px rgba(30, 30, 30, 0.3);
+	margin: 30px ;
+	padding:30px ;
+	text-align: center;
+}
+
+
+#card-profile {
+	background-color: #850606;
+}
+
+#card-description {
+	background-color: indianred;
+}
+
+#card-cinema {
+	background-image: url("images/backgroundcinema.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+#card-travel {
+	background-image: url("images/backgroundtravel.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+#card-fashion {
+	background-image: url("images/backgroundfashion.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+
+#card-follow {
+	background-image: url("images/backgroundfollow.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+
+/*media queries*/
+
+
+@media(max-width:  750px) {
+	.container {
+		width: 650px;
+	}
+}
+
+
+@media(max-width:  650px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width:  610px) {
+	.container {
+		width: 560px;
+	}
+}
+
+
+@media (max-width:  570px) {
+	.container {
+		width: 520px;
+	}
+}
+
+
+
+@media (max-width:  530px) {
+	.container {
+		width: 480px;
+	}
+}
+
+
+
+
